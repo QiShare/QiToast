@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F157F3CF23CD93530012FAFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157F3CE23CD93530012FAFD /* AppDelegate.swift */; };
+		F157F3D123CD93530012FAFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157F3D023CD93530012FAFD /* SceneDelegate.swift */; };
+		F157F3D323CD93530012FAFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157F3D223CD93530012FAFD /* ViewController.swift */; };
+		F157F3D623CD93530012FAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F157F3D423CD93530012FAFD /* Main.storyboard */; };
+		F157F3D823CD93540012FAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F157F3D723CD93540012FAFD /* Assets.xcassets */; };
+		F157F3DB23CD93540012FAFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F157F3D923CD93540012FAFD /* LaunchScreen.storyboard */; };
+		F157F3E423CD98EF0012FAFD /* QiToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157F3E323CD98EF0012FAFD /* QiToastView.swift */; };
+		F167AD6423CDB42300DCEA9D /* QiToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167AD6323CDB42300DCEA9D /* QiToastManager.swift */; };
+		F1DDE06A23CF245A00956BE3 /* QiStaticToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DDE06923CF245A00956BE3 /* QiStaticToastManager.swift */; };
+		F1DDE06C23CF246F00956BE3 /* QiStaticToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DDE06B23CF246F00956BE3 /* QiStaticToastView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F157F3CB23CD93530012FAFD /* QiToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F157F3CE23CD93530012FAFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F157F3D023CD93530012FAFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F157F3D223CD93530012FAFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F157F3D523CD93530012FAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F157F3D723CD93540012FAFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F157F3DA23CD93540012FAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F157F3DC23CD93540012FAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F157F3E323CD98EF0012FAFD /* QiToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiToastView.swift; sourceTree = "<group>"; };
+		F167AD6323CDB42300DCEA9D /* QiToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiToastManager.swift; sourceTree = "<group>"; };
+		F1DDE06923CF245A00956BE3 /* QiStaticToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiStaticToastManager.swift; sourceTree = "<group>"; };
+		F1DDE06B23CF246F00956BE3 /* QiStaticToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiStaticToastView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F157F3C823CD93530012FAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F157F3C223CD93530012FAFD = {
+			isa = PBXGroup;
+			children = (
+				F157F3CD23CD93530012FAFD /* QiToast */,
+				F157F3CC23CD93530012FAFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F157F3CC23CD93530012FAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F157F3CB23CD93530012FAFD /* QiToast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F157F3CD23CD93530012FAFD /* QiToast */ = {
+			isa = PBXGroup;
+			children = (
+				F157F3E223CD97E30012FAFD /* QiToast */,
+				F157F3CE23CD93530012FAFD /* AppDelegate.swift */,
+				F157F3D023CD93530012FAFD /* SceneDelegate.swift */,
+				F157F3D223CD93530012FAFD /* ViewController.swift */,
+				F157F3D423CD93530012FAFD /* Main.storyboard */,
+				F157F3D723CD93540012FAFD /* Assets.xcassets */,
+				F157F3D923CD93540012FAFD /* LaunchScreen.storyboard */,
+				F157F3DC23CD93540012FAFD /* Info.plist */,
+			);
+			path = QiToast;
+			sourceTree = "<group>";
+		};
+		F157F3E223CD97E30012FAFD /* QiToast */ = {
+			isa = PBXGroup;
+			children = (
+				F167AD6323CDB42300DCEA9D /* QiToastManager.swift */,
+				F157F3E323CD98EF0012FAFD /* QiToastView.swift */,
+				F1DDE06923CF245A00956BE3 /* QiStaticToastManager.swift */,
+				F1DDE06B23CF246F00956BE3 /* QiStaticToastView.swift */,
+			);
+			path = QiToast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F157F3CA23CD93530012FAFD /* QiToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F157F3DF23CD93540012FAFD /* Build configuration list for PBXNativeTarget "QiToast" */;
+			buildPhases = (
+				F157F3C723CD93530012FAFD /* Sources */,
+				F157F3C823CD93530012FAFD /* Frameworks */,
+				F157F3C923CD93530012FAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiToast;
+			productName = QiToast;
+			productReference = F157F3CB23CD93530012FAFD /* QiToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F157F3C323CD93530012FAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = liusiqi;
+				TargetAttributes = {
+					F157F3CA23CD93530012FAFD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = F157F3C623CD93530012FAFD /* Build configuration list for PBXProject "QiToast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F157F3C223CD93530012FAFD;
+			productRefGroup = F157F3CC23CD93530012FAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F157F3CA23CD93530012FAFD /* QiToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F157F3C923CD93530012FAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F157F3DB23CD93540012FAFD /* LaunchScreen.storyboard in Resources */,
+				F157F3D823CD93540012FAFD /* Assets.xcassets in Resources */,
+				F157F3D623CD93530012FAFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F157F3C723CD93530012FAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F157F3D323CD93530012FAFD /* ViewController.swift in Sources */,
+				F157F3E423CD98EF0012FAFD /* QiToastView.swift in Sources */,
+				F1DDE06C23CF246F00956BE3 /* QiStaticToastView.swift in Sources */,
+				F157F3CF23CD93530012FAFD /* AppDelegate.swift in Sources */,
+				F167AD6423CDB42300DCEA9D /* QiToastManager.swift in Sources */,
+				F157F3D123CD93530012FAFD /* SceneDelegate.swift in Sources */,
+				F1DDE06A23CF245A00956BE3 /* QiStaticToastManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F157F3D423CD93530012FAFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F157F3D523CD93530012FAFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F157F3D923CD93540012FAFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F157F3DA23CD93540012FAFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F157F3DD23CD93540012FAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F157F3DE23CD93540012FAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F157F3E023CD93540012FAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3WAJB85GP;
+				INFOPLIST_FILE = QiToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.liusiqi.QiToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F157F3E123CD93540012FAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3WAJB85GP;
+				INFOPLIST_FILE = QiToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.liusiqi.QiToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F157F3C623CD93530012FAFD /* Build configuration list for PBXProject "QiToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F157F3DD23CD93540012FAFD /* Debug */,
+				F157F3DE23CD93540012FAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F157F3DF23CD93540012FAFD /* Build configuration list for PBXNativeTarget "QiToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F157F3E023CD93540012FAFD /* Debug */,
+				F157F3E123CD93540012FAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F157F3C323CD93530012FAFD /* Project object */;
+}
